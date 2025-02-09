@@ -171,7 +171,8 @@ def post_to_bluesky(text, created_at, media_files=[]):
         print("📩 API Response:", json.dumps(data, indent=2))
 
 # 🔹 Migrate ALL Tweets with Local Media
-for tweet in tweets_data:  # Limit to 10 tweets for testing
+# for tweet in tweets_data:
+for tweet in tweets_data[:10]:
     text = tweet["tweet"].get("full_text", tweet["tweet"].get("text", ""))
     timestamp = tweet["tweet"].get("created_at", "")
     tweet_id = tweet["tweet"]["id_str"]
