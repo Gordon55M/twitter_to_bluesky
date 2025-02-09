@@ -4,7 +4,7 @@
 ***********
 **WARNING**
 ***********
-THIS WILL SPAM YOUR FEED AND FOLLOWERS. DO THIS AS SOON AS YOU MIGRATE TO BLUESKY
+THIS WILL SPAM YOUR FEED AND FOLLOWERS. DO THIS AS SOON AS YOU MIGRATE TO BLUESKY. CODE BY DEFAULT ONLY DOES THE MOST RECENT 10 TWEETS TO TEST YOUR SETUP. ONCE YOU CONFIRM IT WORKS, UNCOMMENT LINE 174 AND COMMENT OUT LINE 175 TO DO ALL TWEETS.
 ***********
 
 This local Python code is meant to take a downloaded and unzipped twitter archive file and migrate previous tweets and media associated with those tweets to BlueSky Social. There are a few variables I took into consideration:
