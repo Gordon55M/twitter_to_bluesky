@@ -16,11 +16,11 @@ Steps to use:
 1) Download your twitter archive and unzip.
 2) Within the unzipped folder locate the tweets.js file. Currently (02/09/25) it exists at /data/tweets.js
 3) Locate the Media Folder.  Currently (02/09/25) it exists at /data/tweets_media
-  # 🔹 Paths to Twitter Archive
+Paths to Twitter Archive
 TWITTER_ARCHIVE_PATH = "ENTER_TWEETS_FILE_LOCATION_AND_FILENAME.EXTENSION"
 MEDIA_FOLDER = "ENTER_TWEETS_MEDIA_FOLDER_LOCATION"
 5) Enter you BlueSky Login information here:
-# 🔹 Bluesky Login Info
+Bluesky Login Info
 BSKY_USERNAME = "BLUESKY_LOGIN"
 BSKY_PASSWORD = "BLUESKY_PASS"
 5) Run the Python script
